@@ -7,9 +7,10 @@
 .main-header {
     background-color: #5e85f0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px
-    
+    padding: 10px;
+    padding-left: 60px;   
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -38,6 +39,16 @@
     display: inline-block;
     margin-left: 25px;
 }
+
+.header nav ul li a {
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+    text-decoration-color: white;
+    color:#fff
+}
+
 
 .image-resize {
     width: 100%;
