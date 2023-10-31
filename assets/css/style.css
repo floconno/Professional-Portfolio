@@ -134,8 +134,9 @@
 .contact-links {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(18, 61, 47);
-      
+
 }
+
 
 @media screen and (max-width: 992px) {
     .left {
