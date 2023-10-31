@@ -91,10 +91,9 @@
     padding-right: 40px;
 }
 
-.big-card {
+.card {
     display: block;
     height: 500px;
-    background-color: red;
     border: 6px blue solid;
     position: relative;
     overflow: hidden;
@@ -111,6 +110,18 @@
     margin-bottom: 5px;
 }
 
-.big-card img {
+.card img {
     height: 100%;
+}
+
+.small {
+    height: 250px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-top: 15px;
 }
